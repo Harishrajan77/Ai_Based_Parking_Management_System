@@ -1,0 +1,29 @@
+# Python environments and cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# YOLO intermediate checkpoints (Too large for Git)
+epoch*.pt
+last.pt
+
+# YOLO / Deep Learning cache
+Video/pretrained/
+
+# Datasets (Too large for Git)
+Video/images/
+Video/labels/
+Video/parking_occupancy_yolo/
+text/
+test/
+
+# Media & Video Files (Too large for Git)
+*.mp4
+*.avi
+*.mov
+
+# OS generated files
+.DS_Store
